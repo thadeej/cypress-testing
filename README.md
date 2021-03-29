@@ -69,7 +69,7 @@ When we commit our code to main our GitHub workflow will be initiated and execut
 
 You will need to go to your repo settings and update the GH-Pages section to point to the gh-pages branch and use the root folder.
 
-<img src="./GH_pages.png" width="500">
+<img src="GH_pages.png" width="500">
 
 Once you have made your first tests and have pushed/merged your changes into the `main` branch GitHub will pick up your workflow and run the jobs to build and run your tests, collate your reports and publish them to your gh-pages.
 
