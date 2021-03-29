@@ -1,0 +1,9 @@
+{
+"defaultCommandTimeout": 6000,
+"reporter": "cypress-multi-reporters",
+    "reporterOptions": {
+        "configFile": "reporter-config.json"
+    },
+    "experimentalStudio": true
+}
+
