@@ -1,0 +1,106 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-09-29T20:51:59.265Z",
+    "end": "2021-09-29T20:52:05.612Z",
+    "duration": 6347,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "ef9fa8dd-0cc3-4e03-ad65-f1a04586942b",
+      "title": "",
+      "fullFile": "cypress/integration/tests/AmazonFilterTest.spec.js",
+      "file": "cypress/integration/tests/AmazonFilterTest.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "931dff66-b8a7-4606-ad91-c180c620489d",
+          "title": "Example Test on Amazon",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Amazon Search",
+              "fullTitle": "Example Test on Amazon Amazon Search",
+              "timedOut": null,
+              "duration": 3734,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(\"https://amazon.co.uk\");",
+              "err": {},
+              "uuid": "9b18c48a-8bbb-49aa-a7c9-7ccff35b1039",
+              "parentUUID": "931dff66-b8a7-4606-ad91-c180c620489d",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "9b18c48a-8bbb-49aa-a7c9-7ccff35b1039"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 3734,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false
+      },
+      "version": "4.1.0"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/results/json",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "4.1.0"
+    }
+  }
+}
